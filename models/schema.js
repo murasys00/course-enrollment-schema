@@ -21,7 +21,7 @@ const studentSchema = new mongoose.Schema({
         }]
 });
 
-const courseSchema = mongoose.Schema({
+const courseSchema = new mongoose.Schema({
     title:{
         type:String,
         required:true
